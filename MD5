@@ -1,0 +1,11 @@
+3912d64cb0b84e5e12a327f9e29fa233 *DESCRIPTION
+dc21c19f0d6968ee25d441b2cf46017d *NAMESPACE
+71b2ba6a2686ebc8b56ecc04c3a042a8 *R/fqa_citations.R
+a7896cf2da072c9088e982633f7e8e90 *R/fqa_db.R
+1b70312a925a8fa0669cd34da20fee06 *README.md
+f35de5817b5eeeabf0b08171db3e3620 *data/fqa_citations.rda
+44ccef7d644aad71a4fec6b9c53ff1b7 *data/fqa_db.rda
+d9055919b557d268f1d705aa20f65148 *man/fqa_citations.Rd
+522c6c0ffdd74e09cb251d3663313c0a *man/fqa_db.Rd
+1ac76ddd0312c0af24777d1dd2801e99 *tests/testthat.R
+26f24205e419c01e96c45a71d7c09e0c *tests/testthat/test-fqadata.R
