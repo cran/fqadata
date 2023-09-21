@@ -5,7 +5,8 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/ifoxfoot/fqadata/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ifoxfoot/fqadata/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/ifoxfoot/fqadata/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/ifoxfoot/fqadata/actions/workflows/check-standard.yaml)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/fqadata)](https://cran.r-project.org/package=fqadata)
 <!-- badges: end -->
 
 `fqadata` contains regional Floristic Quality Assessment databases that
@@ -40,25 +41,32 @@ library(fqadata)
 
 #view data set
 head(fqa_db)
-#>                   name              name_origin acronym
-#> 1       ABIES CONCOLOR accepted_scientific_name    ABCO
-#> 2 ABUTILON THEOPHRASTI accepted_scientific_name    ABTH
-#> 3   ACALYPHA GRACILENS accepted_scientific_name   ACGR2
-#> 4  ACALYPHA RHOMBOIDEA accepted_scientific_name    ACRH
-#> 5   ACALYPHA VIRGINICA accepted_scientific_name    ACVI
-#> 6         ACER NEGUNDO accepted_scientific_name   ACNE2
-#>   accepted_scientific_name family   nativity c  w wetland_indicator physiognomy
-#> 1           Abies concolor   <NA> introduced 0 NA              <NA>        <NA>
-#> 2     Abutilon theophrasti   <NA> introduced 0 NA              <NA>        <NA>
-#> 3       Acalypha gracilens   <NA>     native 4 NA              <NA>        <NA>
-#> 4      Acalypha rhomboidea   <NA>     native 1 NA              <NA>        <NA>
-#> 5       Acalypha virginica   <NA>     native 6 NA              <NA>        <NA>
-#> 6             Acer negundo   <NA>     native 2 NA              <NA>        <NA>
-#>   duration common_name                             fqa_db
-#> 1     <NA>        <NA> atlantic_coastal_pine_barrens_2018
-#> 2     <NA>        <NA> atlantic_coastal_pine_barrens_2018
-#> 3     <NA>        <NA> atlantic_coastal_pine_barrens_2018
-#> 4     <NA>        <NA> atlantic_coastal_pine_barrens_2018
-#> 5     <NA>        <NA> atlantic_coastal_pine_barrens_2018
-#> 6     <NA>        <NA> atlantic_coastal_pine_barrens_2018
+#>                                    name              name_origin acronym
+#> 80634                    ACORUS CALAMUS accepted_scientific_name   ACCA4
+#> 80635                ACALYPHA GRACILENS accepted_scientific_name   ACGR2
+#> 80636    ACALYPHA GRACILENS VAR. DELZII                  synonym   ACGRD
+#> 80637   ACALYPHA GRACILENS VAR. FRASERI                  synonym   ACGRF
+#> 80638 ACALYPHA VIRGINICA VAR. GRACILENS                  synonym   ACVIG
+#> 80639                      ACER NEGUNDO accepted_scientific_name   ACNE2
+#>       accepted_scientific_name family   nativity c  w wetland_indicator
+#> 80634           Acorus calamus   <NA> introduced 0 -2               OBL
+#> 80635       Acalypha gracilens   <NA>     native 4  0               FAC
+#> 80636       Acalypha gracilens   <NA>     native 4  0               FAC
+#> 80637       Acalypha gracilens   <NA>     native 4  0               FAC
+#> 80638       Acalypha gracilens   <NA>     native 4  0               FAC
+#> 80639             Acer negundo   <NA>     native 4  0               FAC
+#>       physiognomy  duration               common_name
+#> 80634        forb perennial     Single-Vein Sweetflag
+#> 80635        forb    annual Slender Threeseed Mercury
+#> 80636        forb    annual Slender Threeseed Mercury
+#> 80637        forb    annual Slender Threeseed Mercury
+#> 80638        forb    annual Slender Threeseed Mercury
+#> 80639        tree perennial                  Boxelder
+#>                           fqa_db
+#> 80634 appalachian_mountains_2013
+#> 80635 appalachian_mountains_2013
+#> 80636 appalachian_mountains_2013
+#> 80637 appalachian_mountains_2013
+#> 80638 appalachian_mountains_2013
+#> 80639 appalachian_mountains_2013
 ```

@@ -1,6 +1,6 @@
 Package: fqadata
 Title: Contains Regional Floristic Quality Assessment Databases
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: c(
     person("Iris", "Foxfoot", , "iris.r.foxfoot@usace.army.mil", role = c("aut", "cre")),
     person("U.S. Army Engineer Research and Development Center", role = c("cph", "fnd"))
@@ -21,9 +21,9 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2023-04-14 21:29:42 UTC; irisfoxfoot
+Packaged: 2023-09-21 16:15:54 UTC; irisfoxfoot
 Author: Iris Foxfoot [aut, cre],
   U.S. Army Engineer Research and Development Center [cph, fnd]
 Maintainer: Iris Foxfoot <iris.r.foxfoot@usace.army.mil>
 Repository: CRAN
-Date/Publication: 2023-04-17 10:40:02 UTC
+Date/Publication: 2023-09-21 20:30:06 UTC
