@@ -1,3 +1,9 @@
+# fqadata 1.1.1
+
+# fqadata 1.1.1
+
+Ownership of `fqadata` was transferred to the EcoModTeam github organization. The maintainer was updated to be Dr. Todd Swannack and the email to contact maintainers was updated to tswannack@gmail.com.
+
 # fqadata 1.1.0
 
 ## Breaking Changes
